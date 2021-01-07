@@ -5465,7 +5465,7 @@ a.close.disabled {
     pointer-events: none;
   }
   .modal-content .row {
-    max-height: 85vh;
+    max-height: 65vh;
     overflow: auto;
   }
 }
