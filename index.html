@@ -19,9 +19,16 @@
         <link rel="stylesheet" href="css/aos.css"/>
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-        
     </head>
-    <body id="page-top">
+    <body id="page-top" class="loading">
+        <div class="loader-background">
+            <div class="loader">
+                <div class="images">
+                  <i class="total-station"></i>
+                </div>
+                <span></span>
+              </div>
+        </div>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
@@ -41,13 +48,15 @@
             </div>
         </nav>
         <!-- Masthead-->
+        <div class="masthead-0">
         <header class="masthead">
             <div class="container">
-                <div class="masthead-heading animate-pop-in animation-delay-1">Geometrika</div>                
-                <div class="masthead-subheading animate-pop-in animation-delay-1.5">d. o. o. za geodetske poslove</div>
+                <div class="masthead-heading animate-pop-in">Geometrika</div>                
+                <div class="masthead-subheading animate-pop-in ">d. o. o. za geodetske poslove</div>
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger animate-pop-in animation-btn" href="#services">Saznaj više</a>
             </div>
         </header>
+        </div>
         <!-- Services-->
         <section class="page-section" id="services">
            <div class="container-fluid">
@@ -1088,6 +1097,7 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script src="js/java.js"></script>
+        <script src="js/preloader.js"></script>
         <!-- AOS -->
         <script src="js/aos.js"></script>
         <script>AOS.init();</script>
