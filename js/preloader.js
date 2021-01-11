@@ -39,7 +39,7 @@ $(document).ready(function() {
             });
             $('.loader-background').fadeOut(3000, function () {
             });
-            $('.masthead').load(' .masthead .container')
+            
               /// can add another function here
               $('body').removeClass('loading');
          
