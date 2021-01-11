@@ -39,10 +39,10 @@ $(document).ready(function() {
             });
             $('.loader-background').fadeOut(3000, function () {
             });
-            $('.body').load(' .masthead', function() {
+            $('.masthead').load(' .masthead .container')
               /// can add another function here
               $('body').removeClass('loading');
-         });
+         
         }
         num++;
       },i*70);

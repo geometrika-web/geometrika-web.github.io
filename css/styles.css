@@ -169,7 +169,7 @@ body {
 }
 
 .drone {
-  content: url('../assets/img/preloader/drone_clipArt.jpg');
+  content: url('../assets/img/preloader/drone_clipArt.png');
   height: 50px;
   width: 50px;
   display: block;
