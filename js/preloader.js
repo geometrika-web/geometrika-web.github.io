@@ -1,4 +1,4 @@
-$(window).ready(function() {
+$(document).ready(function() {
     var counter = 0;
   
    
@@ -39,7 +39,7 @@ $(window).ready(function() {
             });
             $('.loader-background').fadeOut(3000, function () {
             });
-            $('.masthead').load(' .masthead .container', function() {
+            $('.body').load(' .masthead', function() {
               /// can add another function here
               $('body').removeClass('loading');
          });
