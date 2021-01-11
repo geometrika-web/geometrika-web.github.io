@@ -1,7 +1,4 @@
-
-
-
-$(document).ready(function() {
+$(window).on("load", function() {
     var counter = 0;
   
    
@@ -42,7 +39,7 @@ $(document).ready(function() {
             });
             $('.loader-background').fadeOut(3000, function () {
             });
-            $('.masthead-0').load('masthead.html .masthead', function() {
+            $('.masthead').load(' .masthead .container', function() {
               /// can add another function here
               $('body').removeClass('loading');
          });
