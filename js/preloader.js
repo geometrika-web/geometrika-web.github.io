@@ -35,9 +35,9 @@ $(window).on("load", function() {
         $('.loader span').html(num+'%');
         
         if(num == 100) {
-            $('.loader').fadeOut(500, function () {
+            $('.loader').fadeOut(5000, function () {
             });
-            $('.loader-background').fadeOut(3000, function () {
+            $('.loader-background').fadeOut(8000, function () {
             });
             $('.masthead').load(' .masthead .container', function() {
               /// can add another function here
