@@ -10654,7 +10654,7 @@ section#portfolio {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("../assets/img/map-image.webp");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -10748,7 +10748,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .parallax {
   /* The image used */
-  background-image: url("../assets/img/city_map_dark.png");
+  background-image: url("../assets/img/city_map_dark.webp");
 
   /* Set a specific height */
   height: 5000px;
@@ -10762,7 +10762,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 @media (min-width: 575.98px) {
   .parallax {
     /* The image used */
-    background-image: url("../assets/img/city_map_dark.png");
+    background-image: url("../assets/img/city_map_dark.webp");
   
     /* Set a specific height */
     height: 2600px;
@@ -10777,7 +10777,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 @media (min-width: 991.98px) {
   .parallax {
     /* The image used */
-    background-image: url("../assets/img/city_map_dark.png");
+    background-image: url("../assets/img/city_map_dark.webp");
   
     /* Set a specific height */
     height: 2000px;
@@ -10791,7 +10791,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .parallax-contact {
   /* The image used */
-  background-image: url("../assets/img/city_map_dark.png");
+  background-image: url("../assets/img/city_map_dark.webp");
 
   /* Set a specific height */
   height: 2000px;
@@ -10805,7 +10805,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 @media (max-width: 768px) {
   .parallax-contact {
     /* The image used */
-    background-image: url("../assets/img/city_map_dark.png");
+    background-image: url("../assets/img/city_map_dark.webp");
   
     /* Set a specific height */
     height: 800px;
@@ -10820,7 +10820,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 @media (min-width: 768.1px) {
   .parallax-contact {
     /* The image used */
-    background-image: url("../assets/img/city_map_dark.png");
+    background-image: url("../assets/img/city_map_dark.webp");
   
     /* Set a specific height */
     height: 650px;
