@@ -11203,3 +11203,16 @@ section#contact form#contactForm :-ms-input-placeholder {
   overflow: hidden;
   height: 100vh;
 }
+
+.top-2 {
+  position: relative;
+  top: -2rem;
+}
+
+
+@media(max-width: 768px) {
+  .top-2 {
+    position: relative;
+    top: -5rem;
+  }
+}
