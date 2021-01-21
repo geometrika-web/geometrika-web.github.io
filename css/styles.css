@@ -103,9 +103,6 @@ body {
 }
 
 
-
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
-
 .loading {
   overflow: hidden;
   height: 100vh;
@@ -10352,7 +10349,7 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 27rem;
+    padding-top: 25rem;
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
@@ -11202,4 +11199,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 }
 
-
+.overflow-hid {
+  overflow: hidden;
+  height: 100vh;
+}
