@@ -11216,3 +11216,10 @@ section#contact form#contactForm :-ms-input-placeholder {
     top: -5rem;
   }
 }
+
+@media(min-width: 1600px){
+  .top-2 {
+    position: relative;
+    top: -7rem;
+  }
+}
