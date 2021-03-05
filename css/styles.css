@@ -92,6 +92,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
+  overflow: overlay;
   margin: 0;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
@@ -5532,6 +5533,13 @@ a.close.disabled {
   height: 100%;
   overflow: hidden;
   outline: 0;
+}
+
+.modal-content ::-webkit-scrollbar {
+  width: 4px;
+}
+.modal-content ::-webkit-scrollbar-thumb {
+  background: #b9b9b9;
 }
 
 .modal-dialog {
@@ -11223,3 +11231,32 @@ section#contact form#contactForm :-ms-input-placeholder {
     top: -7rem;
   }
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  margin-top: 107px;
+  background: rgba(196, 78, 78, 0);
+  margin-bottom: 37.7px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fec503
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fed136;
+}
+
+@media (max-width: 992px) {
+  ::-webkit-scrollbar-track {
+    margin-top: 90px;
+    background: rgba(196, 78, 78, 0);
+    margin-bottom: 37.5px;
+  }
